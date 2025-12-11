@@ -1,6 +1,6 @@
-# vox8 sample app (Node.js)
+# Vox8 sample app (Node.js)
 
-A simple Node.js + Express app demonstrating the vox8 JavaScript SDK for real-time speech translation.
+A simple Node.js + Express app demonstrating the Vox8 JavaScript SDK for real-time speech translation.
 
 ## Features
 
@@ -17,7 +17,7 @@ A simple Node.js + Express app demonstrating the vox8 JavaScript SDK for real-ti
 npm install
 ```
 
-2. Set your vox8 API key:
+2. Set your Vox8 API key:
 
 ```bash
 export VOX8_API_KEY=vox8_your_api_key_here
@@ -46,7 +46,7 @@ The Express server:
 
 The browser app:
 - Requests a session token from the backend
-- Connects to the vox8 WebSocket API with the session token
+- Connects to the Vox8 WebSocket API with the session token
 - Captures microphone audio and sends it as base64-encoded PCM
 - Receives transcripts and translated audio
 - Plays translated audio automatically
@@ -57,9 +57,9 @@ Environment variables:
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `VOX8_API_KEY` | (required) | Your vox8 API key |
-| `VOX8_API_URL` | `https://api.vox8.io` | vox8 API base URL |
-| `VOX8_WS_URL` | `wss://api.vox8.io/v1/translate` | vox8 WebSocket URL |
+| `VOX8_API_KEY` | (required) | Your Vox8 API key |
+| `VOX8_API_URL` | `https://api.vox8.io` | Vox8 API base URL |
+| `VOX8_WS_URL` | `wss://api.vox8.io/v1/translate` | Vox8 WebSocket URL |
 | `PORT` | `3001` | Server port |
 
 ## SDK pattern
